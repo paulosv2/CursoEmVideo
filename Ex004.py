@@ -1,0 +1,10 @@
+coisa = input('Digite qualquer coisa: ')
+
+print(f'{coisa} eh do tipo {type(coisa)}')
+print(f'{coisa} so tem espacos: {coisa.isspace()}')
+print(f'{coisa} so tem numeros: {coisa.isnumeric()}')
+print(f'{coisa} eh alfabetico: {coisa.isalpha()}')
+print(f'{coisa} eh alfabetico: {coisa.isalnum()}')
+print(f'{coisa} so tem letras maiusculas: {coisa.isupper()}')
+print(f'{coisa} so tem letras minusculas: {coisa.islower()}')
+print(f'{coisa} esta capitalizado: {coisa.istitle()}')
