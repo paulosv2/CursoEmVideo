@@ -1,9 +1,9 @@
-num1 = int(input('Insíra o primeiro número: '))
-num2 = int(input('Insíra o segundo número: '))
+num1 = int(input('Insira o primeiro numero: '))
+num2 = int(input('Insira o segundo numero: '))
 
-if num1 < num2:
-    print('O menor número é {} e o maior número é {}!'.format(num1, num2))
-elif num2 < num1:
-    print('O menor número é {} e o maior número é {}!'.format(num2, num1))
+if (num1 > num2):
+    print('O primeiro numero eh maior que o segundo numero, pois {} eh maior que {}.'.format(num1, num2, num1, num2))
+elif (num2 > num1):
+    print('O segundo numero eh maior que o primeiro numero, pois {} eh maior que {}.'.format(num2, num1, num2, num1))
 else:
-    print('Esse números são iguais. Esse é o número {}!'.format(num1))
+    print('Nao existe valor maior, pois {} eh igual a {}'.format(num1, num2))
